@@ -1,0 +1,9 @@
+workstation,resources,assignment
+WS1,WS1,human/kitting
+WS2,"MC1, MC3",alternate
+WS3,"MC2, MC4",alternate
+WS4,WS4,human/manual
+WS5,MC5,single
+WS6,"MC6, MC7",alternate
+WS7,"MC8, MC9",alternate
+WS9,WS9,human/manual

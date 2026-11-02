@@ -1,0 +1,49 @@
+resource,product,distribution,n,mean_s,sd_s,provenance,source_note
+MC1,PR1,Normal,7,80.96000000000001,6.532873283122314,measured,WS2 timing + duration-matrix machine identity
+MC1,PR2,Normal,9,77.62,7.392563831310489,sibling fallback,initialized from MC3 × PR2; replace when direct data arrives
+MC1,PR3,Normal,9,75.08777777777777,7.083745086071664,measured,WS2 timing + duration-matrix machine identity
+MC1,PR4,Normal,9,73.24888888888889,9.593768087206984,sibling fallback,initialized from MC3 × PR4; replace when direct data arrives
+MC2,PR1,Normal,9,53.888888888888886,4.813840578073926,measured,WS3 timing + duration-matrix machine identity
+MC2,PR2,Normal,9,66.45333333333333,6.955995615294765,sibling fallback,initialized from MC4 × PR2; replace when direct data arrives
+MC2,PR3,Normal,9,52.455555555555556,8.773528524930992,measured,WS3 timing + duration-matrix machine identity
+MC2,PR4,Normal,9,64.37555555555556,8.640743762997358,sibling fallback,initialized from MC4 × PR4; replace when direct data arrives
+MC3,PR1,Normal,7,80.96000000000001,6.532873283122314,sibling fallback,initialized from MC1 × PR1; replace when direct data arrives
+MC3,PR2,Normal,9,77.62,7.392563831310489,measured,WS2 timing + duration-matrix machine identity
+MC3,PR3,Normal,9,75.08777777777777,7.083745086071664,sibling fallback,initialized from MC1 × PR3; replace when direct data arrives
+MC3,PR4,Normal,9,73.24888888888889,9.593768087206984,measured,WS2 timing + duration-matrix machine identity
+MC4,PR1,Normal,9,53.888888888888886,4.813840578073926,sibling fallback,initialized from MC2 × PR1; replace when direct data arrives
+MC4,PR2,Normal,9,66.45333333333333,6.955995615294765,measured,WS3 timing + duration-matrix machine identity
+MC4,PR3,Normal,9,52.455555555555556,8.773528524930992,sibling fallback,initialized from MC2 × PR3; replace when direct data arrives
+MC4,PR4,Normal,9,64.37555555555556,8.640743762997358,measured,WS3 timing + duration-matrix machine identity
+MC5,PR1,Normal,9,83.93444444444444,26.373170605328774,measured,"historical timing sheet: WS 5,6,7 aggregate used as MC5 proxy"
+MC5,PR2,Normal,9,83.75777777777778,21.91842591164896,measured,"historical timing sheet: WS 5,6,7 aggregate used as MC5 proxy"
+MC5,PR3,Normal,9,82.89111111111112,24.424744852528374,measured,"historical timing sheet: WS 5,6,7 aggregate used as MC5 proxy"
+MC5,PR4,Normal,9,74.62777777777778,8.961073844380728,measured,"historical timing sheet: WS 5,6,7 aggregate used as MC5 proxy"
+MC6,PR1,Normal,21,27.205,1.102,measured,telemetry pulse extraction
+MC6,PR2,Normal,15,26.985,0.453,measured,telemetry pulse extraction
+MC6,PR3,Normal,4,26.196,0.939,sibling fallback,initialized from MC7 × PR3; replace when direct data arrives
+MC6,PR4,Normal,1,26.122,0.939,sibling fallback,initialized from MC7 × PR4; replace when direct data arrives
+MC7,PR1,Normal,21,27.205,1.102,sibling fallback,initialized from MC6 × PR1; replace when direct data arrives
+MC7,PR2,Normal,15,26.985,0.453,sibling fallback,initialized from MC6 × PR2; replace when direct data arrives
+MC7,PR3,Normal,4,26.196,0.939,measured,telemetry pulse extraction
+MC7,PR4,Normal,1,26.122,0.939,sparse fallback,PR4 mean from 1 clean telemetry cycle; SD borrowed from MC7 PR3
+MC8,PR1,Normal,21,4.934,0.36,measured,telemetry pulse extraction
+MC8,PR2,Normal,14,5.267,0.428,sibling fallback,initialized from MC9 × PR2; replace when direct data arrives
+MC8,PR3,Normal,25,4.484,0.691,measured,telemetry pulse extraction
+MC8,PR4,Normal,10,5.55,0.366,sibling fallback,initialized from MC9 × PR4; replace when direct data arrives
+MC9,PR1,Normal,21,4.934,0.36,sibling fallback,initialized from MC8 × PR1; replace when direct data arrives
+MC9,PR2,Normal,14,5.267,0.428,measured,telemetry pulse extraction
+MC9,PR3,Normal,25,4.484,0.691,sibling fallback,initialized from MC8 × PR3; replace when direct data arrives
+MC9,PR4,Normal,10,5.55,0.366,measured,telemetry pulse extraction
+WS1,PR1,Normal,9,33.99888888888889,8.524246952729087,measured,historical timing sheet
+WS1,PR2,Normal,9,41.78444444444445,37.255058083135204,measured,historical timing sheet
+WS1,PR3,Normal,9,30.65666666666667,7.149328639809476,measured,historical timing sheet
+WS1,PR4,Normal,9,29.768888888888892,5.06928358953325,measured,historical timing sheet
+WS4,PR1,Normal,9,53.99111111111111,16.619783726363924,measured,historical timing sheet
+WS4,PR2,Normal,9,61.019999999999996,49.554095945743974,measured,historical timing sheet
+WS4,PR3,Normal,9,59.77111111111112,28.8816656567988,measured,historical timing sheet
+WS4,PR4,Normal,9,44.849999999999994,8.059533175066655,measured,historical timing sheet
+WS9,PR1,Normal,9,54.98222222222223,29.776960799323433,measured,historical timing sheet column WS8 / assembly-stage-2
+WS9,PR2,Normal,9,45.06666666666666,24.28036295033499,measured,historical timing sheet column WS8 / assembly-stage-2
+WS9,PR3,Normal,9,38.28666666666666,14.058945550787227,measured,historical timing sheet column WS8 / assembly-stage-2
+WS9,PR4,Normal,9,33.31888888888889,10.731065236550894,measured,historical timing sheet column WS8 / assembly-stage-2
